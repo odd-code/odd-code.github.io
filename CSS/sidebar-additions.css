@@ -1,0 +1,43 @@
+#image-li {
+	height: 220px;
+}
+
+#image {
+	margin: 5px;
+	background-size: 100px 118px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+	height: 100px;
+}
+
+#image div {
+	padding-left: 110px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 30px;
+	text-indent: 0;
+	text-align: left;
+}
+
+#subtitle {
+	color: #35E208;
+	padding: 20px;
+	line-height: 25px;
+	text-indent: 0;
+	text-align: left;
+	font-size: 1.2em;
+}
+
+.selected-link a {
+	font-weight: bold;
+}
+
+#copyright {
+	width:inherit;
+	position:fixed;
+	bottom:0;
+	color:#F2F2F2;
+	text-indent: 20px;
+}
