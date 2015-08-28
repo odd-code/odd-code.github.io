@@ -59,57 +59,63 @@
 
 	  <div class="text">
 	    <h1 style="border-bottom: 1px solid #eee">Sample data</h1>
+        <style>
+          table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          }
+        </style>
         <table>
           <tr>
-            <td>Project</td>
-            <td>Buggy SHA pairs</td>
+            <th>Project</th>
+            <th>Buggy SHA pairs</th>
           </tr>
           <tr>
             <td>Atmosphere</td>
-            <td><a href="data/atmosphere.pairs">link</a></td>
+            <td><a href="data/atmosphere.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Derby</td>
-            <td><a href="data/derby.pairs">link</a></td>
+            <td><a href="data/derby.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Elastic Search</td>
-            <td><a href="data/elasticsearch.pairs">link</a></td>
+            <td><a href="data/elasticsearch.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Facebook Android SDK</td>
-            <td><a href="data/facebook-android-sdk.pairs">link</a></td>
+            <td><a href="data/facebook-android-sdk.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Lucene</td>
-            <td><a href="data/lucene.pairs">link</a></td>
+            <td><a href="data/lucene.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Netty</td>
-            <td><a href="data/netty.pairs">link</a></td>
+            <td><a href="data/netty.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>OpenJPA</td>
-            <td><a href="data/openjpa.pairs">link</a></td>
+            <td><a href="data/openjpa.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Presto</td>
-            <td><a href="data/presto.pairs">link</a></td>
+            <td><a href="data/presto.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Qpid</td>
-            <td><a href="data/qpid.pairs">link</a></td>
+            <td><a href="data/qpid.pairs.txt">link</a></td>
           </tr>
           <tr>
             <td>Wicket</td>
-            <td><a href="data/wicket.pairs">link</a></td>
+            <td><a href="data/wicket.pairs.txt">link</a></td>
           </tr>
         </table>
 	    <h1 style="border-bottom: 1px solid #eee">Tools used</h1>
         <ol>
           <li>To generate the entropy data we have used the Cache Model developed by Zhaopeng Tu. Related code can be found <a href="https://bitbucket.org/zptu/cachelm_for_code_suggestion">here</a>.
           </li>
-          <li>To generate the bug data we have used and improvised upon the SZZ algorithm by Sliwersky et al. Related code can be found <a href="https://bitbucket.org/saheel/szz">here</a>.
+          <li>To generate the bug data we have extended the SZZ algorithm by Sliwersky et al. Related code can be found <a href="https://bitbucket.org/saheel/szz">here</a>.
           </li>
         </ol>
 	    
