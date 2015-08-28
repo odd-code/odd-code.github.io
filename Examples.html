@@ -19,7 +19,8 @@
 
     <!-- Custom styles for this template -->
     <link href="CSS/theme.css" rel="stylesheet">
-    <link href="CSS/solarized-dark.css" rel="stylesheet" type="text/css">
+    <link href="CSS/prettify.css" rel="stylesheet">
+    <!-- <link href="CSS/paraiso-light.css" rel="stylesheet" type="text/css"> -->
   </head>
 
   <body role="document">
@@ -69,11 +70,11 @@
 +   terminationFuture.@\dkgreen{trySuccess}@(null);
    }
           </code></pre>
-          <pre><code data-language="python">def openFile(path):
+          <pre class="prettyprint ">def openFile(path):
     file = open(path, "r")
     content = file.read()
     file.close()
-    return content</code></pre>
+    return content</pre>
           
           <p>Example 2</p>
           <p>Example 3</p>
@@ -94,8 +95,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>
     <script src="JS/docs.min.js"></script>
-    <script src="JS/rainbow-custom.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="JS/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="JS/prettify.js"></script>
+    <script>
+      !function ($) {
+      $(function(){
+      window.prettyPrint && prettyPrint()
+      })
+      }(window.jQuery)
+    </script>
+
   </body>
 </html>
