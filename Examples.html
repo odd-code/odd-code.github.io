@@ -37,13 +37,16 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
-			<li class="dropdown">
-              <a href="Examples.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Examples<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="Examples.html#unnatural">Unnatural bugs</a></li>
-                <li><a href="Examples.html#unnatural">Natural bugs</a></li>
-              </ul>
-            </li>
+
+			<!-- <li class="dropdown"> -->
+            <!--   <a href="Examples.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Examples<span class="caret"></span></a> -->
+            <!--   <ul class="dropdown-menu"> -->
+            <!--     <li><a href="Examples.html#unnatural">Unnatural bugs</a></li> -->
+            <!--     <li><a href="Examples.html#unnatural">Natural bugs</a></li> -->
+            <!--   </ul> -->
+            <!-- </li> -->
+
+            <li><a href="Examples.html">Examples</a></li>
             <li><a href="Data.html">Data</a></li>
             <li><a href="Results.html">Results</a></li>
             <li><a href="About.html">Personnel</a></li>
@@ -54,17 +57,19 @@
 
     <div class="container" role="main">
 
-	  <div class="page-header">
-	    <h1>Examples</h1>
-	  </div>
-	  <div class="text" id="unnatural">
-	    <h2>Unnatural Bugs</h2>
-		examples
-	  </div>
-	  <div class="text" id="natural">
-	    <h2>Natural Bugs</h2>
-		examples
-	  </div>
+      <div class="row">
+        <style>
+          h3 {text-align: center;}
+        </style>
+        <div class="col-sm-6" style="overflow-y:auto; border-right: 1px dashed #000;">
+          <h3>Unnatural bugs go here</h3>
+        </div>
+        <div class="col-sm-6" style="overflow-y:auto">
+          <h3>Natural bugs go here</h3>
+        </div>
+      </div>
+
+      
     </div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
