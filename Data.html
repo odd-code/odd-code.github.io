@@ -59,10 +59,59 @@
 
 	  <div class="text">
 	    <h1 style="border-bottom: 1px solid #eee">Sample data</h1>
-        <p>Here we provide sample data for the Presto project which can be used to reproduce some of the results of our paper. Since making the entire database available online is not practical, we will provide scripts that can be used to generate the same on a compatible system for projects other than Presto. Then, if one so desires, he or she can redo the experiments.</p>
-        <p><a href="data/presto.bf_shas.txt">Here</a> is the list of bug-fix SHAs for Presto. And <a href="data/presto.bugdata.csv">here</a> is the bug data extracted from Presto's commit logs.</p>
+        <table>
+          <tr>
+            <td>Project</td>
+            <td>Buggy SHA pairs</td>
+          </tr>
+          <tr>
+            <td>Atmosphere</td>
+            <td><a href="data/atmosphere.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Derby</td>
+            <td><a href="data/derby.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Elastic Search</td>
+            <td><a href="data/elasticsearch.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Facebook Android SDK</td>
+            <td><a href="data/facebook-android-sdk.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Lucene</td>
+            <td><a href="data/lucene.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Netty</td>
+            <td><a href="data/netty.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>OpenJPA</td>
+            <td><a href="data/openjpa.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Presto</td>
+            <td><a href="data/presto.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Qpid</td>
+            <td><a href="data/qpid.pairs">link</a></td>
+          </tr>
+          <tr>
+            <td>Wicket</td>
+            <td><a href="data/wicket.pairs">link</a></td>
+          </tr>
+        </table>
 	    <h1 style="border-bottom: 1px solid #eee">Tools used</h1>
-        <p>To generate the entropy data we have used the Cache Model developed by Zhaopeng Tu. An implementation of the same can be found <a href="https://bitbucket.org/zptu/cachelm_for_code_suggestion">here</a>.</p>
+        <ol>
+          <li>To generate the entropy data we have used the Cache Model developed by Zhaopeng Tu. Related code can be found <a href="https://bitbucket.org/zptu/cachelm_for_code_suggestion">here</a>.
+          </li>
+          <li>To generate the bug data we have used and improvised upon the SZZ algorithm by Sliwersky et al. Related code can be found <a href="https://bitbucket.org/saheel/szz">here</a>.
+          </li>
+        </ol>
 	    
 	  </div>
     </div> <!-- /container -->
