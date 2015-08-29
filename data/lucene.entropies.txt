@@ -1,0 +1,10 @@
+"project","snapshot","filename","source_line","token_line","ast_type","entropy","is_bug","bug_duration","zle","pcent_bugginess","bf_sha","bi_sha","bf_add","bf_del"
+"lucene",2012-05-24,"lucene/analysis/common/src/test/org/apache/lucene/analysis/no/TestNorwegianLightStemFilter.java",58,29,1,5.221285,0,0,-0.190097781384079,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"solr/core/src/java/org/apache/solr/search/SortedIntDocSet.java",696,478,1,9.196525,0,0,1.02915403828665,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"lucene/core/src/test/org/apache/lucene/analysis/TestGraphTokenizers.java",276,192,1,1.09845,0,0,-1.45461868476405,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"lucene/core/src/java/org/apache/lucene/search/FieldCacheRangeFilter.java",181,98,1,1.05407,0,0,-1.46823054109398,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"lucene/core/src/java/org/apache/lucene/search/ConstantScoreQuery.java",202,138,1,7.65558,0,0,0.556528487310481,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"lucene/core/src/java/org/apache/lucene/search/FilteredQuery.java",157,79,1,10.061115,0,0,1.29433373329101,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"lucene/core/src/java/org/apache/lucene/search/FieldCacheRangeFilter.java",156,75,1,2.51388,0,0,-1.02049002759705,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"lucene/analysis/common/src/test/org/apache/lucene/analysis/snowball/TestSnowball.java",155,103,1,6.49375,0,0,0.200181866314505,0.0189009640290954,"0","0",-1,-1
+"lucene",2012-05-24,"lucene/analysis/common/src/test/org/apache/lucene/analysis/fa/TestPersianNormalizationFilter.java",69,37,1,10.40595,0,0,1.40009859308216,0.0189009640290954,"0","0",-1,-1

@@ -1,0 +1,10 @@
+"project","snapshot","filename","source_line","token_line","ast_type","entropy","is_bug","bug_duration","zle","pcent_bugginess","bf_sha","bi_sha","bf_add","bf_del"
+"wicket",2011-06-14,"wicket-core/src/test/java/org/apache/wicket/redirect/intercept/InterceptTest.java",42,18,1,1.49789,0,0,-0.946185017000875,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-core/src/test/java/org/apache/wicket/request/mapper/PackageMapperTest.java",50,25,1,8.248945,0,0,2.75951989217823,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-core/src/main/java/org/apache/wicket/Page.java",533,265,1,1.49789,0,0,-0.946185017000875,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-core/src/main/java/org/apache/wicket/request/resource/DynamicImageResource.java",154,69,1,3.99824,0,0,0.426275919795815,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-examples/src/main/java/org/apache/wicket/examples/compref/SubmitLinkPage.java",56,25,1,3.74824,0,0,0.289049037879614,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-core/src/test/java/org/apache/wicket/request/handler/render/WebPageRendererTest.java",188,110,1,1.747535,0,0,-0.809152997256995,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-extensions/src/main/java/org/apache/wicket/extensions/ajax/markup/html/AjaxLazyLoadPanel.java",74,27,1,3.99824,0,0,0.426275919795815,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-core/src/test/java/org/apache/wicket/util/tester/MockPageWithFormAndAjaxFormSubmitBehavior.java",61,26,1,3.997885,0,0,0.426081057623494,0.0145160254322986,"0","0",-1,-1
+"wicket",2011-06-14,"wicket-examples/src/disabled/java/ng/TestPage1.java",102,67,1,3.79635,0,0,0.315456979035568,0.0145160254322986,"0","0",-1,-1

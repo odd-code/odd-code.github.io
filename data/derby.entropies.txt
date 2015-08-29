@@ -1,0 +1,10 @@
+"project","snapshot","filename","source_line","token_line","ast_type","entropy","is_bug","bug_duration","zle","pcent_bugginess","bf_sha","bi_sha","bf_add","bf_del"
+"derby",2006-11-03,"java/testing/org/apache/derbyTesting/junit/BaseTestCase.java",145,55,1,1.12706,0,0,-1.10846584653726,0.112877104491115,"0","0",-1,-1
+"derby",2006-11-03,"java/engine/org/apache/derby/impl/services/monitor/StorageFactoryService.java",732,550,1,1.49789,0,0,-1.00951177246982,0.112877104491115,"0","0",-1,-1
+"derby",2006-11-03,"java/testing/org/apache/derbyTesting/functionTests/util/TestUtil.java",175,81,1,1.212575,1,2648,-1.08564660957186,0.112877104491115,"3f5c48a93f9606e6cb021dac0f5914ce71205b63","bc50840290735610a4f2a67ab48a2964255f1d78",20,19
+"derby",2006-11-03,"java/testing/org/apache/derbyTesting/functionTests/util/TestUtil.java",294,162,1,6.42777,1,2648,0.306001294605562,0.112877104491115,"3f5c48a93f9606e6cb021dac0f5914ce71205b63","bc50840290735610a4f2a67ab48a2964255f1d78",20,19
+"derby",2006-11-03,"java/tools/org/apache/derby/impl/tools/sysinfo/Main.java",378,173,1,1.14125,0,0,-1.1046793181792,0.112877104491115,"0","0",-1,-1
+"derby",2006-11-03,"plugins/eclipse/org.apache.derby.ui/src/org/apache/derby/ui/decorate/DerbyIsRunningDecorator.java",72,42,1,8.13873,0,0,0.762562151511471,0.112877104491115,"0","0",-1,-1
+"derby",2006-11-03,"java/testing/org/apache/derbyTesting/functionTests/tests/lang/RoutineSecurityTest.java",60,21,1,8.540995,0,0,0.869904493298103,0.112877104491115,"0","0",-1,-1
+"derby",2006-11-03,"java/testing/org/apache/derbyTesting/functionTests/tests/jdbc4/ResultSetTest.java",1330,765,1,9.908645,0,0,1.23485484628553,0.112877104491115,"0","0",-1,-1
+"derby",2006-11-03,"java/testing/org/apache/derbyTesting/junit/NetworkServerTestSetup.java",66,22,1,9.928585,0,0,1.24017573250537,0.112877104491115,"0","0",-1,-1

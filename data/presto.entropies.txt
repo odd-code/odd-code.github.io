@@ -1,0 +1,10 @@
+"project","snapshot","filename","source_line","token_line","ast_type","entropy","is_bug","bug_duration","zle","pcent_bugginess","bf_sha","bi_sha","bf_add","bf_del"
+"presto",2014-12-28,"presto-main/src/test/java/com/facebook/presto/operator/TestScanFilterAndProjectOperator.java",97,73,1,1.16502,0,0,-1.03708092788432,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-cassandra/src/main/java/com/facebook/presto/cassandra/CassandraColumnHandle.java",234,195,1,1.699465,0,0,-0.786015668350057,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-main/src/main/java/com/facebook/presto/server/HttpRemoteTask.java",410,335,1,1.747535,0,0,-0.76343391152604,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-tests/src/main/java/com/facebook/presto/tests/AbstractTestingPrestoClient.java",136,98,1,4.204115,0,0,0.390589225123508,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-raptor/src/main/java/com/facebook/presto/raptor/metadata/DatabaseShardManager.java",73,49,1,2.142375,0,0,-0.57795063995552,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-cassandra/src/main/java/com/facebook/presto/cassandra/CassandraSession.java",159,133,1,6.25051,0,0,1.3519204973491,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-main/src/test/java/com/facebook/presto/operator/TestDriver.java",182,139,1,1.49789,0,0,-0.880709190958779,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-raptor/src/main/java/com/facebook/presto/raptor/RaptorMetadata.java",266,227,1,1.49789,0,0,-0.880709190958779,0.0694204679088721,"0","0",-1,-1
+"presto",2014-12-28,"presto-main/src/main/java/com/facebook/presto/operator/ExchangeOperator.java",101,76,1,4.03102,0,0,0.309274700524939,0.0694204679088721,"0","0",-1,-1

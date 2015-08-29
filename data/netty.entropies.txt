@@ -1,0 +1,10 @@
+"project","snapshot","filename","source_line","token_line","ast_type","entropy","is_bug","bug_duration","zle","pcent_bugginess","bf_sha","bi_sha","bf_add","bf_del"
+"netty",2012-08-27,"common/src/main/java/io/netty/util/CharsetUtil.java",64,17,1,2.82017,1,1623,-0.759433803870316,0,"7d37af5dfb33c9ca67c596f1371aec6bf54d46a9","24b59bbfa901f738dfb6e9c3640b5ebead19d069",4,2
+"netty",2012-08-27,"transport/src/main/java/io/netty/channel/SingleThreadEventLoop.java",50,29,1,9.29553,0,NA,1.25702366249483,0,NA,NA,-1,-1
+"netty",2012-08-27,"example/src/main/java/io/netty/example/uptime/UptimeClientHandler.java",83,51,1,9.099085,0,NA,1.19584976838236,0,NA,NA,-1,-1
+"netty",2012-08-27,"transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java",1192,985,1,1.14838,1,227,-1.28003704873926,0,"506474f56951c2191070839cff24dd37a9c8dc13","141a05c8316f68bff6aa7e2b0bbf71443acf7408",36,439
+"netty",2012-08-27,"testsuite/src/test/java/io/netty/testsuite/transport/socket/SocketStringEchoTest.java",74,49,1,4.614405,0,NA,-0.20070061186807,0,NA,NA,-1,-1
+"netty",2012-08-27,"transport/src/main/java/io/netty/channel/AbstractChannel.java",525,392,1,1.1305,1,392,-1.28560496457693,0,"14158070bf8b3f831702061ffd657c84179fc639","368156f5d0f3fd59146fe37f874cf77abe307ee7",82,306
+"netty",2012-08-27,"transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java",45,22,1,8.27502,0,NA,0.939232063417665,0,NA,NA,-1,-1
+"netty",2012-08-27,"example/src/main/java/io/netty/example/objectecho/ObjectEchoClient.java",49,27,1,10.23875,0,NA,1.55074679316632,0,NA,NA,-1,-1
+"netty",2012-08-27,"transport/src/main/java/io/netty/channel/AbstractServerChannel.java",116,71,1,1.123415,0,NA,-1.28781126679784,0,NA,NA,-1,-1

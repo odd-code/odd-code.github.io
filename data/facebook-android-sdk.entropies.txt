@@ -1,0 +1,10 @@
+"project","snapshot","filename","source_line","token_line","ast_type","entropy","is_bug","bug_duration","zle","pcent_bugginess","bf_sha","bi_sha","bf_add","bf_del"
+"facebook-android-sdk",2012-11-13,"samples/Scrumptious/src/com/facebook/scrumptious/PickerActivity.java",208,171,1,8.0095,0,0,1.06353290535747,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"facebook/tests/src/com/facebook/widget/PlacePickerFragmentTests.java",204,142,1,1.22537,0,0,-1.19209033293323,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"samples/SessionLoginSample/src/com/facebook/samples/sessionlogin/MainActivity.java",45,23,1,3.17205,0,0,-0.544847923734739,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"samples/SessionLoginSample/src/com/facebook/samples/sessionlogin/LoginUsingActivityActivity.java",99,73,1,1.35,0,0,-1.15065269477061,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"samples/Hackbook/src/com/facebook/android/Places.java",130,95,1,2.080505,0,0,-0.907770548690338,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"facebook/src/com/facebook/widget/GraphObjectAdapter.java",735,556,1,8.86137,0,0,1.34676712522099,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"facebook/tests/src/com/facebook/widget/FriendPickerFragmentTests.java",123,84,1,8.11994,0,0,1.10025257765692,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"samples/ProfilePictureSample/src/com/facebook/samples/profilepicture/ProfilePictureSampleFragment.java",176,133,1,8.1284,0,0,1.10306540297069,0.010523568643774,"0","0",-1,-1
+"facebook-android-sdk",2012-11-13,"samples/HelloFacebookSample/src/com/facebook/samples/hellofacebook/HelloFacebookSampleActivity.java",143,102,1,8.34361,0,0,1.17461955613588,0.010523568643774,"0","0",-1,-1

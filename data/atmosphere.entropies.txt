@@ -1,0 +1,10 @@
+"project","snapshot","filename","source_line","token_line","ast_type","entropy","is_bug","bug_duration","zle","pcent_bugginess","bf_sha","bi_sha","bf_add","bf_del"
+"atmosphere",2012-07-15,"modules/cpr/src/main/java/org/atmosphere/container/JettyWebSocketUtil.java",79,52,1,9.907515,0,0,1.30195186591502,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"extras/gwt/atmosphere-gwt-server/src/main/java/org/atmosphere/gwt/server/impl/GwtAtmosphereResourceImpl.java",187,134,1,6.30744,0,0,0.259216814888293,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"integration-tests/cpr/src/test/java/org/atmosphere/tests/http/BaseTest.java",1192,957,1,1.19938,0,0,-1.22029491882492,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"samples/pubsub/src/main/java/org/atmosphere/samples/pubsub/PubSub.java",124,43,1,9.356755,0,0,1.14242831246031,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"modules/cpr/src/main/java/org/atmosphere/cpr/DefaultBroadcaster.java",868,622,1,4.54754,0,0,-0.250525181126219,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"extras/guice/src/test/java/org/atmosphere/tests/guice/PubSubTest.java",139,62,1,9.670325,0,0,1.23325153974042,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"modules/jersey/src/main/java/org/atmosphere/jersey/AtmosphereResourceInjector.java",131,60,1,9.36174,0,0,1.14387218077677,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"extras/gwt/atmosphere-gwt-js/src/main/java/org/atmosphere/gwt/js/JsUserInterface.java",47,34,1,9.0544,0,0,1.05485342683898,0.0330754570081786,"0","0",-1,-1
+"atmosphere",2012-07-15,"integration-tests/jersey/src/test/java/org/atmosphere/jersey/tests/BasePubSubTest.java",119,88,1,6.07546,0,0,0.192025526613137,0.0330754570081786,"0","0",-1,-1
