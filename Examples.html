@@ -62,27 +62,43 @@
       <div class="row">
         <div class="col-sm-6" style="overflow-y:auto; border-right: 1px dashed #000;">
           <h1 style="text-align: center; border-bottom: 1px solid #eee">Unnatural bugs go here</h1>
-          <p>Example 1</p>
-          <pre><code data-language="java">  if (isTerminated()) {
+
+          <strong>Example 1</strong>
+          <pre class="prettyprint ">  if (isTerminated()) {
     // Before (entropy = 5.96485):
 -   terminationFuture.@\Red{setSuccess}@(null);
     // After (entropy = 1.33915):
 +   terminationFuture.@\dkgreen{trySuccess}@(null);
-   }
-          </code></pre>
-          <pre class="prettyprint ">def openFile(path):
-    file = open(path, "r")
-    content = file.read()
-    file.close()
-    return content</pre>
+   }</pre>
           
-          <p>Example 2</p>
-          <p>Example 3</p>
+          <strong>Example 2</strong>
+          <pre class="prettyprint ">  if (newState.isClosed()) {
+    // Before (entropy = 6.07042):
+-   this.tokenInfo = @\Red{null}@;
+    // After (entropy = 1.95014):
++   this.tokenInfo = @\dkgreen{AccessToken.createEmptyToken}@
+                       @\dkgreen{(Collections.<String>emptyList())}@;
+  }
+  ...</pre>
+
+          <strong>Example 3</strong>
+          <pre class="prettyprint ">  if (!directory.exists())
+    // Before (entropy = 9.213675):
+-   @\Red{directory.mkdir();}@
+    // After (entropy = 5.33941):
++   @\dkgreen{if (!directory.mkdir())}@
++     @\dkgreen{throw new IOException}@
+           @\dkgreen{("Cannot create directory: " + directory)}@;
+
+...</pre>
+
         </div>
+
         <div class="col-sm-6" style="overflow-y:auto">
           <h1 style="text-align: center; border-bottom: 1px solid #eee">Natural bugs go here</h1>
-          <p>Example 1</p>
-          <p>Example 2</p>
+
+          <strong>Example 1</strong>
+          <strong>Example 2</strong>
         </div>
       </div>
 
